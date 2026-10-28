@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>失敗した生成のコスト（と各社の扱い）</title>
+<meta name="description" content="表示価格は「生成1回」あたりで、「使えるクリップ1本」あたりではありません。お金がかかるケースは2つあります。エラー（ジョブが失敗・ブロックされる）と、ボツ（完了したが顔が変わる、文字が違う、動きがおかしいため作り直す）です。">
+<link rel="canonical" href="https://xhq52465840.github.io/ai-gen-pricing/ja/failed-generations/">
+<link rel="alternate" hreflang="en" href="https://xhq52465840.github.io/ai-gen-pricing/en/failed-generations/"><link rel="alternate" hreflang="zh-CN" href="https://xhq52465840.github.io/ai-gen-pricing/zh/failed-generations/"><link rel="alternate" hreflang="es" href="https://xhq52465840.github.io/ai-gen-pricing/es/failed-generations/"><link rel="alternate" hreflang="de" href="https://xhq52465840.github.io/ai-gen-pricing/de/failed-generations/"><link rel="alternate" hreflang="ja" href="https://xhq52465840.github.io/ai-gen-pricing/ja/failed-generations/"><link rel="alternate" hreflang="pt-BR" href="https://xhq52465840.github.io/ai-gen-pricing/pt/failed-generations/"><link rel="alternate" hreflang="x-default" href="https://xhq52465840.github.io/ai-gen-pricing/en/failed-generations/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GenCost">
+<meta property="og:title" content="失敗した生成のコスト（と各社の扱い）">
+<meta property="og:description" content="表示価格は「生成1回」あたりで、「使えるクリップ1本」あたりではありません。お金がかかるケースは2つあります。エラー（ジョブが失敗・ブロックされる）と、ボツ（完了したが顔が変わる、文字が違う、動きがおかしいため作り直す）です。">
+<meta property="og:url" content="https://xhq52465840.github.io/ai-gen-pricing/ja/failed-generations/">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/ai-gen-pricing/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/ai-gen-pricing/assets/style.css?v=3">
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="nav"><div class="wrap">
+<a class="logo" href="/ai-gen-pricing/ja/"><span class="mark" aria-hidden="true">$</span>GenCost</a>
+<nav class="menu" aria-label="メニュー"><a href="/ai-gen-pricing/ja/">計算ツール</a><a href="/ai-gen-pricing/ja/models/">モデル</a><a href="/ai-gen-pricing/ja/platforms/">プラットフォーム</a><a href="/ai-gen-pricing/ja/failed-generations/" aria-current="page">失敗した生成</a><a href="/ai-gen-pricing/ja/about/">概要</a></nav>
+<details class="dd"><summary aria-label="言語">日本語 ▾</summary><div class="ddm"><a href="/ai-gen-pricing/en/failed-generations/" hreflang="en" lang="en">English</a><a href="/ai-gen-pricing/zh/failed-generations/" hreflang="zh-CN" lang="zh-CN">简体中文</a><a href="/ai-gen-pricing/es/failed-generations/" hreflang="es" lang="es">Español</a><a href="/ai-gen-pricing/de/failed-generations/" hreflang="de" lang="de">Deutsch</a><a href="/ai-gen-pricing/ja/failed-generations/" hreflang="ja" lang="ja" aria-current="true">日本語</a><a href="/ai-gen-pricing/pt/failed-generations/" hreflang="pt-BR" lang="pt-BR">Português</a></div></details>
+</div></header>
+<main id="main">
+<section class="hero"><div class="wrap narrow"><div class="crumbs"><a href="/ai-gen-pricing/ja/">ホーム</a> / 失敗した生成</div><h1>失敗した生成のコスト</h1><p class="lead">表示価格は「生成1回」あたりで、「使えるクリップ1本」あたりではありません。お金がかかるケースは2つあります。エラー（ジョブが失敗・ブロックされる）と、ボツ（完了したが顔が変わる、文字が違う、動きがおかしいため作り直す）です。</p></div></section>
+<section class="blk"><div class="wrap narrow prose"><h2>計算方法</h2><p>使える出力1件あたりの実際の価格＝表示価格÷採用率。2本に1本なら2倍、4本に1本なら4倍です。プラットフォームが返金するエラーは含みませんが、ボツは必ず含まれます。</p><div class="callout">例：Kling 4.0（1080p）は公式APIで1秒0.235ドル、5秒クリップで1.18ドルです。3本に1本しか使わないなら、公開する1本あたり3.53ドルになります。</div><div class="tablewrap" style="max-width:520px;margin:6px 0 16px"><table><thead><tr><th class="n">採用率（実際に使う出力の割合）</th><th class="n">掲載どおり</th><th class="n">出力1件あたり</th></tr></thead><tbody><tr><td class="n">100%</td><td class="n num">$1.18</td><td class="n num"><b>$1.18</b></td></tr><tr><td class="n">50%</td><td class="n num">$1.18</td><td class="n num"><b>$2.35</b></td></tr><tr><td class="n">33%</td><td class="n num">$1.18</td><td class="n num"><b>$3.56</b></td></tr><tr><td class="n">25%</td><td class="n num">$1.18</td><td class="n num"><b>$4.70</b></td></tr></tbody></table></div>
+<h2>各社のルール</h2><ul class="facts"><li>生成に失敗した場合、通常クレジットは自動で返却されます。完了した生成は、結果が気に入らなくても返金されません。 <a href="https://higgsfield.ai/blog/higgsfield-pricing-explained" rel="nofollow noopener" target="_blank">出典</a></li><li>条件を満たせば、初回購入から3日以内ならサブスクリプションクレジットの返金を申請できます。 <a href="https://pollo.ai/pricing" rel="nofollow noopener" target="_blank">出典</a></li><li>追加クレジットは期限がなく、サブスク終了後も使えますが返金はできません。 <a href="https://pollo.ai/pricing" rel="nofollow noopener" target="_blank">出典</a></li><li>追加のコンピュートパックは都度購入で、90日後に失効します。 <a href="https://www.krea.ai/pricing" rel="nofollow noopener" target="_blank">出典</a></li><li>前払いのリソースパックもあり、返金不可で購入から90日後に失効します。 <a href="https://docs.byteplus.com/en/docs/ModelArk/1544106" rel="nofollow noopener" target="_blank">出典</a></li><li>StandardとProのクレジットは毎月リセットされ、Maxは最大1か月分の未使用分を繰り越せます。追加購入したクレジットは失効しません。 <a href="https://runwayml.com/pricing" rel="nofollow noopener" target="_blank">出典</a></li><li>Premium+以上では一部モデル（Nano Banana 2、Nano Banana Proなど）が無制限で、追加1枚あたりの費用はかかりません。 <a href="https://www.magnific.com/pricing" rel="nofollow noopener" target="_blank">出典</a></li><li>Runway: 1回あたり最低80クレジット (Seedance 2.5), 1回あたり最低56クレジット (Seedance 2.0). <a href="https://docs.dev.runwayml.com/guides/pricing/" rel="nofollow noopener" target="_blank">出典</a></li></ul><h2>無駄を減らすには</h2><ul><li>安く下書きして高く仕上げる：480pやFast/Lite版でプロンプトを試し、採用分だけフル画質で生成する。</li><li>必要最小限の長さで生成する。多くの動画モデルは秒単位の課金です。</li><li>まず画像を固める：良い静止画からの画像→動画は、テキスト→動画よりボツが少なくなります。</li><li>バッチを回す前に、モデレーションでブロックされた場合も課金されるか確認する。</li></ul>
+<p><a class="cta" style="color:#fff;text-decoration:none" href="/ai-gen-pricing/ja/#calc">自分の数字で計算</a></p></div></section></main>
+<footer><div class="wrap"><div class="cols">
+<div><a class="logo" href="/ai-gen-pricing/ja/"><span class="mark" aria-hidden="true">$</span>GenCost</a>
+<p>価格は各プラットフォームの公式料金ページから取得し、日付を付けています。価格は頻繁に変わるため、支払う前に必ず出典ページで確認してください。掲載プラットフォームとは提携していません。</p>
+<p>確認日: 2026年10月28日 · <a class="lnk" href="https://github.com/xhq52465840/ai-gen-pricing" rel="noopener">GitHubリポジトリ</a></p></div>
+<div><nav aria-label="メニュー"><a href="/ai-gen-pricing/ja/">計算ツール</a><a href="/ai-gen-pricing/ja/models/">モデル</a><a href="/ai-gen-pricing/ja/platforms/">プラットフォーム</a><a href="/ai-gen-pricing/ja/failed-generations/">失敗した生成</a><a href="/ai-gen-pricing/ja/about/">概要</a><a href="/ai-gen-pricing/ja/privacy/">プライバシー</a></nav>
+<nav aria-label="言語"><a href="/ai-gen-pricing/en/failed-generations/" hreflang="en" lang="en">English</a><a href="/ai-gen-pricing/zh/failed-generations/" hreflang="zh-CN" lang="zh-CN">简体中文</a><a href="/ai-gen-pricing/es/failed-generations/" hreflang="es" lang="es">Español</a><a href="/ai-gen-pricing/de/failed-generations/" hreflang="de" lang="de">Deutsch</a><a href="/ai-gen-pricing/ja/failed-generations/" hreflang="ja" lang="ja">日本語</a><a href="/ai-gen-pricing/pt/failed-generations/" hreflang="pt-BR" lang="pt-BR">Português</a></nav></div>
+</div></div></footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>失败的生成要花你多少钱（以及各平台怎么处理）</title>
+<meta name="description" content="标价是按“生成一次”算的，不是按“能用的成片”算的。有两种情况会让你多花钱：出错（任务失败或被拦截）和废片（生成完了，但脸变了、文字错了或动作不对，只好重跑）。">
+<link rel="canonical" href="https://xhq52465840.github.io/ai-gen-pricing/zh/failed-generations/">
+<link rel="alternate" hreflang="en" href="https://xhq52465840.github.io/ai-gen-pricing/en/failed-generations/"><link rel="alternate" hreflang="zh-CN" href="https://xhq52465840.github.io/ai-gen-pricing/zh/failed-generations/"><link rel="alternate" hreflang="es" href="https://xhq52465840.github.io/ai-gen-pricing/es/failed-generations/"><link rel="alternate" hreflang="de" href="https://xhq52465840.github.io/ai-gen-pricing/de/failed-generations/"><link rel="alternate" hreflang="ja" href="https://xhq52465840.github.io/ai-gen-pricing/ja/failed-generations/"><link rel="alternate" hreflang="pt-BR" href="https://xhq52465840.github.io/ai-gen-pricing/pt/failed-generations/"><link rel="alternate" hreflang="x-default" href="https://xhq52465840.github.io/ai-gen-pricing/en/failed-generations/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GenCost">
+<meta property="og:title" content="失败的生成要花你多少钱（以及各平台怎么处理）">
+<meta property="og:description" content="标价是按“生成一次”算的，不是按“能用的成片”算的。有两种情况会让你多花钱：出错（任务失败或被拦截）和废片（生成完了，但脸变了、文字错了或动作不对，只好重跑）。">
+<meta property="og:url" content="https://xhq52465840.github.io/ai-gen-pricing/zh/failed-generations/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/ai-gen-pricing/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/ai-gen-pricing/assets/style.css?v=3">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<header class="nav"><div class="wrap">
+<a class="logo" href="/ai-gen-pricing/zh/"><span class="mark" aria-hidden="true">$</span>GenCost</a>
+<nav class="menu" aria-label="菜单"><a href="/ai-gen-pricing/zh/">计算器</a><a href="/ai-gen-pricing/zh/models/">模型</a><a href="/ai-gen-pricing/zh/platforms/">平台</a><a href="/ai-gen-pricing/zh/failed-generations/" aria-current="page">失败的生成</a><a href="/ai-gen-pricing/zh/about/">关于</a></nav>
+<details class="dd"><summary aria-label="语言">简体中文 ▾</summary><div class="ddm"><a href="/ai-gen-pricing/en/failed-generations/" hreflang="en" lang="en">English</a><a href="/ai-gen-pricing/zh/failed-generations/" hreflang="zh-CN" lang="zh-CN" aria-current="true">简体中文</a><a href="/ai-gen-pricing/es/failed-generations/" hreflang="es" lang="es">Español</a><a href="/ai-gen-pricing/de/failed-generations/" hreflang="de" lang="de">Deutsch</a><a href="/ai-gen-pricing/ja/failed-generations/" hreflang="ja" lang="ja">日本語</a><a href="/ai-gen-pricing/pt/failed-generations/" hreflang="pt-BR" lang="pt-BR">Português</a></div></details>
+</div></header>
+<main id="main">
+<section class="hero"><div class="wrap narrow"><div class="crumbs"><a href="/ai-gen-pricing/zh/">首页</a> / 失败的生成</div><h1>失败的生成要花你多少钱</h1><p class="lead">标价是按“生成一次”算的，不是按“能用的成片”算的。有两种情况会让你多花钱：出错（任务失败或被拦截）和废片（生成完了，但脸变了、文字错了或动作不对，只好重跑）。</p></div></section>
+<section class="blk"><div class="wrap narrow prose"><h2>怎么算</h2><p>每个可用输出的真实价格 = 标价 ÷ 保留率。两条留一条就是付两倍，四条留一条就是四倍。平台退还积分的报错不算，但废片永远要算。</p><div class="callout">例子：Kling 4.0 1080p 走官方 API 是每秒 0.235 美元，一条 5 秒视频 1.18 美元。如果三条只留一条，你发布的每条视频成本就是 3.53 美元。</div><div class="tablewrap" style="max-width:520px;margin:6px 0 16px"><table><thead><tr><th class="n">保留率（真正用得上的比例）</th><th class="n">原始标价</th><th class="n">每个输出</th></tr></thead><tbody><tr><td class="n">100%</td><td class="n num">$1.18</td><td class="n num"><b>$1.18</b></td></tr><tr><td class="n">50%</td><td class="n num">$1.18</td><td class="n num"><b>$2.35</b></td></tr><tr><td class="n">33%</td><td class="n num">$1.18</td><td class="n num"><b>$3.56</b></td></tr><tr><td class="n">25%</td><td class="n num">$1.18</td><td class="n num"><b>$4.70</b></td></tr></tbody></table></div>
+<h2>各平台的规则</h2><ul class="facts"><li>生成失败时积分通常会自动退回。已经完成的生成不退积分，即使你不满意结果。 <a href="https://higgsfield.ai/blog/higgsfield-pricing-explained" rel="nofollow noopener" target="_blank">来源</a></li><li>首次购买后 3 天内，符合条件的订阅积分可以退款。 <a href="https://pollo.ai/pricing" rel="nofollow noopener" target="_blank">来源</a></li><li>加购积分不过期，订阅结束后也能用，但不能退款。 <a href="https://pollo.ai/pricing" rel="nofollow noopener" target="_blank">来源</a></li><li>额外算力包是一次性购买，90 天后过期。 <a href="https://www.krea.ai/pricing" rel="nofollow noopener" target="_blank">来源</a></li><li>也卖预付资源包，不能退款，购买 90 天后过期。 <a href="https://docs.byteplus.com/en/docs/ModelArk/1544106" rel="nofollow noopener" target="_blank">来源</a></li><li>Standard 和 Pro 的积分每月清零；Max 可以把最多一个月没用完的积分结转。额外购买的积分永不过期。 <a href="https://runwayml.com/pricing" rel="nofollow noopener" target="_blank">来源</a></li><li>Premium+ 及以上套餐对部分模型（包括 Nano Banana 2 和 Nano Banana Pro）不限次数，这些模型多生成一张不再额外花钱。 <a href="https://www.magnific.com/pricing" rel="nofollow noopener" target="_blank">来源</a></li><li>Runway: 每次生成最低 80 积分 (Seedance 2.5), 每次生成最低 56 积分 (Seedance 2.0). <a href="https://docs.dev.runwayml.com/guides/pricing/" rel="nofollow noopener" target="_blank">来源</a></li></ul><h2>怎么少浪费</h2><ul><li>先便宜地打草稿，再贵地出成片：用 480p 或 Fast/Lite 版本测试提示词，选中后再用全画质生成。</li><li>用能满足需要的最短时长生成；大多数视频模型按秒计费。</li><li>先把图定下来：用一张好的静帧做图生视频，比纯文字生视频的废片率低。</li><li>跑批量之前，先确认被审核拦截的任务收不收费。</li></ul>
+<p><a class="cta" style="color:#fff;text-decoration:none" href="/ai-gen-pricing/zh/#calc">用你自己的用量算一下</a></p></div></section></main>
+<footer><div class="wrap"><div class="cols">
+<div><a class="logo" href="/ai-gen-pricing/zh/"><span class="mark" aria-hidden="true">$</span>GenCost</a>
+<p>价格均取自各平台官方定价页并注明日期。价格经常变动，付款前请务必到来源页面确认。本站与所列任何平台均无关联。</p>
+<p>核实于: 2026年10月28日 · <a class="lnk" href="https://github.com/xhq52465840/ai-gen-pricing" rel="noopener">GitHub 仓库</a></p></div>
+<div><nav aria-label="菜单"><a href="/ai-gen-pricing/zh/">计算器</a><a href="/ai-gen-pricing/zh/models/">模型</a><a href="/ai-gen-pricing/zh/platforms/">平台</a><a href="/ai-gen-pricing/zh/failed-generations/">失败的生成</a><a href="/ai-gen-pricing/zh/about/">关于</a><a href="/ai-gen-pricing/zh/privacy/">隐私</a></nav>
+<nav aria-label="语言"><a href="/ai-gen-pricing/en/failed-generations/" hreflang="en" lang="en">English</a><a href="/ai-gen-pricing/zh/failed-generations/" hreflang="zh-CN" lang="zh-CN">简体中文</a><a href="/ai-gen-pricing/es/failed-generations/" hreflang="es" lang="es">Español</a><a href="/ai-gen-pricing/de/failed-generations/" hreflang="de" lang="de">Deutsch</a><a href="/ai-gen-pricing/ja/failed-generations/" hreflang="ja" lang="ja">日本語</a><a href="/ai-gen-pricing/pt/failed-generations/" hreflang="pt-BR" lang="pt-BR">Português</a></nav></div>
+</div></div></footer>
+</body>
+</html>
